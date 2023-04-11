@@ -1,0 +1,158 @@
+h1{
+    background-color:rgb(255, 0, 34);
+    font-size:60px; 
+    color:rgb(9, 9, 1); 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.son{
+    font-size: medium;
+    background-color: rgb(203, 211, 202);
+    color: rgb(14, 11, 8);
+}
+.daughter{
+    font-size: medium;
+}
+
+/*mobile devices*/
+@media (min-width:320px) and (max-width:480px){
+h1{
+    background-color:blue;
+    color:azure;
+}
+.daughter{
+  width:100%;  
+}
+.son{
+    width:100%;
+    font-size: 20px;
+}
+.son p{
+    width:100%
+
+}
+.daughter img{
+    width:100%;
+    height:auto;
+}
+}
+/*tablet devices*/
+@media (min-width:481px) and (max-width:768px){
+    h1{
+        background-color:blue;
+        color:red;
+    }
+    .daughter{
+      width:100%;  
+    }
+    .son{
+        width:100%;
+        font-size: 20px;
+    }
+    .son p{
+        width:100%
+    
+    }
+    .daughter img{
+        width:100%;
+        height: auto;
+    }
+}
+/*laptop devices*/
+@media (min-width:769px) and (max-width:1024px){
+    @import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap');
+        body{
+            background-color: coral;
+            font-family: 'Delicious Handrawn', cursive;
+        }
+        .parent{
+            width:100%;
+        }
+        .son{
+            width:50%;
+            float:left;
+        }
+        .daughter{
+            width:50%;
+            float:right;
+        }
+        img{
+            width:500px;
+            height:auto;
+        }
+        h1{
+            background-color:white;
+            font-size: 40px;
+            text-align: center;
+            word-spacing: 4px;
+        }
+        .son{
+            line-height: 30px;
+            font-size:10px;
+        }
+/*mobile devices*/
+@media (min-width:320px) and (max-width:480px){
+ h1{
+    background-color: white;
+    color:red;
+ }
+ .daughter{
+    width:100%;
+ }
+ .son{
+    width:100%;
+    font-size: 20px;
+ }
+ .son p{
+    width:100%;
+ }
+
+ .daughter img{
+    width:100%;
+    height: auto;
+ }
+}
+/*tablet devices*/
+@media (min-width:481px) and (max-width:768px){
+    h1{
+        background-color: thistle;
+        color:brown;
+     }
+     .daughter{
+        width:100%;
+     }
+     .son{
+        width:100%;
+        font-size: 20px;
+     }
+     .son p{
+        width:100%;
+     }
+    
+     .daughter img{
+        width:100%;
+        height: auto;
+     }
+}
+/*laptop devices*/
+@media (min-width:769px) and (max-width:1024px){
+    h1{
+        background-color: rgb(255, 0, 30);
+        color:rgb(126, 165, 42);
+     }
+     .daughter{
+        width:100%;
+     }
+     .son{
+        width:100%;
+        font-size: 20px;
+     }
+     .son p{
+        width:100%;
+     }
+    
+     .daughter img{
+        width:100%;
+        height: auto;
+     }
+}
+}
