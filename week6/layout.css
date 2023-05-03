@@ -15,25 +15,25 @@ h1{
 
 /*mobile devices*/
 @media (min-width:320px) and (max-width:480px){
-h1{
-    background-color:blue;
-    color:azure;
-}
-.daughter{
-  width:100%;  
-}
-.son{
-    width:100%;
-    font-size: 20px;
-}
-.son p{
-    width:100%
+    h1{
+        background-color:blue;
+        color:azure;
+    }
+    .daughter{
+        width:100%;  
+    }
+    .son{
+        width:100%;
+        font-size: 20px;
+    }
+    .son p{
+        width:100%
 
-}
-.daughter img{
-    width:100%;
-    height:auto;
-}
+    }
+    .daughter img{
+        width:100%;
+        height:auto;
+    }
 }
 /*tablet devices*/
 @media (min-width:481px) and (max-width:768px){
@@ -91,25 +91,25 @@ h1{
         }
 /*mobile devices*/
 @media (min-width:320px) and (max-width:480px){
- h1{
-    background-color: white;
-    color:red;
- }
- .daughter{
-    width:100%;
- }
- .son{
-    width:100%;
-    font-size: 20px;
- }
- .son p{
-    width:100%;
- }
+    h1{
+        background-color: white;
+        color:red;
+    }
+    .daughter{
+        width:100%;
+    }
+        .son{
+        width:100%;
+        font-size: 20px;
+    }
+    .son p{
+        width:100%;
+    }
 
- .daughter img{
-    width:100%;
-    height: auto;
- }
+    .daughter img{
+        width:100%;
+        height: auto;
+    }
 }
 /*tablet devices*/
 @media (min-width:481px) and (max-width:768px){

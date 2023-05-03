@@ -15,7 +15,7 @@ def display_fibonacci(count):
     print(n2)
 
     # Loop 'count' times
-    for _ in range(count):
+    for __ in range(count):
         # Calculate and print the sum of previous two numbers
         sum = n1 + n2
         print(sum)
